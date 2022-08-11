@@ -1,0 +1,51 @@
+body {
+    box-sizing: 0;
+    margin: 0, 0;
+    background: hsl(286, 76%, 35%);
+    margin: 0 auto;
+    
+}
+
+
+.form-data {
+    margin: 0;
+    margin-top: 40%;
+   
+}
+
+form {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+#name {
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 10px 5px 5px rgb(73, 48, 48);
+}
+
+ #description { 
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 5px;
+    width: 100%;
+    min-height: 400px;
+    box-shadow: 10px 5px 5px rgb(73, 48, 48);
+
+}
+
+#submit {
+    width: 20%;
+    margin-left: 40%;
+    box-shadow: 10px 5px 5px rgb(73, 48, 48);
+
+} 
