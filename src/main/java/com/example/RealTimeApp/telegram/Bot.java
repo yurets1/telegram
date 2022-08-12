@@ -1,5 +1,6 @@
 package com.example.RealTimeApp.telegram;
 
+import com.example.RealTimeApp.service.telegram.CsvExport;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
@@ -16,6 +17,7 @@ public class Bot extends TelegramLongPollingBot {
     @Value("${bot.token}")
     private String token;
 
+    private CsvExport csvExport;
 
     @Override
     public String getBotUsername() {

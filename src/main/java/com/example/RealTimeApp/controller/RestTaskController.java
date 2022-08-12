@@ -1,7 +1,7 @@
 package com.example.RealTimeApp.controller;
 
 import com.example.RealTimeApp.entity.Task;
-import com.example.RealTimeApp.service.TaskServiceImpl;
+import com.example.RealTimeApp.service.task.TaskServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

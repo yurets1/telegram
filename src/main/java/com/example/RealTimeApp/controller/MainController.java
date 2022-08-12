@@ -1,7 +1,7 @@
 package com.example.RealTimeApp.controller;
 
 import com.example.RealTimeApp.entity.Task;
-import com.example.RealTimeApp.service.TaskServiceImpl;
+import com.example.RealTimeApp.service.task.TaskServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

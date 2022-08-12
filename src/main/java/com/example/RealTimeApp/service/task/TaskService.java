@@ -1,4 +1,4 @@
-package com.example.RealTimeApp.service;
+package com.example.RealTimeApp.service.task;
 
 import com.example.RealTimeApp.entity.Task;
 
