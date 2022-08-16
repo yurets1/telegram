@@ -28,9 +28,9 @@ public class CsvExport {
     public void writeEmployeesToCsv(Writer writer) {
 
         List<Task> employees = repo.findAll();
-        try (CSVPrinter csvPrinter = new CSVPrinter(writer, CSVFormat.DEFAULT)) {
+        try (CSVPrinter csvPrinter = new CSVPrinter(writer, CSVFormat.EXCEL)) {
             for (Task task : employees) {
-                csvPrinter.printRecord(task.getId(), task.getName(), task.getDescription(), task.getDate());
+                csvPrinter.printRecord(task.getName(), task.getDescription(), task.getDate());
             }
         } catch (IOException e) {
             log.error("Error While writing CSV ", e);
